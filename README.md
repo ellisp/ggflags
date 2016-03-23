@@ -9,8 +9,8 @@ flag geom for ggplot2
 
     data(lflags)
     set.seed(1234)
-    d <- data.frame(x=rnorm(10), y=rnorm(10), 
-                    country=sample(c("ar","fr"), 10, TRUE), 
+    d <- data.frame(x=rnorm(50), y=rnorm(50), 
+                    country=sample(c("ar","fr", "nz", "gb", "es", "ca"), 50, TRUE), 
                     stringsAsFactors = FALSE)
     ggplot(d, aes(x=x, y=y, country=country, size=x)) + 
       geom_flag() + 

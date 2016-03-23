@@ -25,7 +25,7 @@ scale_country <- function(..., guide = "legend") {
 
 GeomFlag <- ggproto("GeomFlag", Geom,
                     required_aes = c("x", "y", "country"),
-                    default_aes = aes(size = 5, country="fr"),
+                    default_aes = aes(size = 5, country="nz"),
                     
                     draw_key = function (data, params, size) 
                     {
