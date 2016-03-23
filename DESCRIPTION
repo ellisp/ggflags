@@ -1,0 +1,15 @@
+Package: ggflags
+Type: Package
+Version: 0.0.1
+Title: What the Package Does (Title Case)
+Authors@R: c(person("Baptiste", "Auguie",
+    email = "baptiste.auguie@gmail.com",
+    role = c("aut", "cre")))
+License: GPL-3
+Description: flags
+LazyData: TRUE
+Depends:
+    ggplot2
+Imports:
+    grid
+RoxygenNote: 5.0.1.9000
