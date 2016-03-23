@@ -10,7 +10,6 @@ library(ggflags)
     ## Loading required package: ggplot2
 
 ``` r
-data(lflags)
 set.seed(1234)
 d <- data.frame(x=rnorm(50), y=rnorm(50), 
                 country=sample(c("ar","fr", "nz", "gb", "es", "ca"), 50, TRUE), 
