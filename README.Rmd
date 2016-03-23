@@ -1,5 +1,7 @@
 ---
-output: md_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 ## ggflags
 
@@ -17,3 +19,5 @@ ggplot(d, aes(x=x, y=y, country=country, size=x)) +
   geom_flag() + 
   scale_country()
 ```
+
+(note: proof of principle only)
